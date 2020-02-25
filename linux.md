@@ -1,18 +1,23 @@
 ## commands
+
 ```shell
 du -sh folder/  #size of folder summed up and human readable
 sudo !!  #run last command executed with as superuser
 echo "ls -l" | at midnight  #run command at specific time
 ssh-keygen -t rsa -b 4096   #basic rsa key generation
 ```
+
 ## aliases
+
 ```shell
 alias ll='exa -alhgF'   #requires exa program, better ls
 alias yeet='rm -rf'     #yeet
 alias gitdo='f(){ git add -A && git commit -m "$@" && git push; unset -f f; }; f' #git "message" command alias
 
 ```
+
 ## hotkeys
+
 ```
 Ctrl + A  Go to the beginning of the line you are currently typing on
 Ctrl + E  Go to the end of the line you are currently typing on
@@ -31,6 +36,7 @@ Alt + F   Move cursor forward one word on the current line
 Alt + B   Move cursor backward one word on the current line
 Tab       #Auto-complete files and folder names
 ```
+
 ## links
-> https://wiki.manjaro.org/Linux_Security (manjaro permissions, users, firewall)</br>
-> https://wiki.archlinux.org/index.php/Security (arch advanced security)
+
+> https://wiki.manjaro.org/Linux_Security (manjaro permissions, users, firewall)</br> > https://wiki.archlinux.org/index.php/Security (arch advanced security)
