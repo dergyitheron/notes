@@ -9,7 +9,7 @@ Ctrl + /                #comment line
 F2                      #factor in all files in project
 ```
 ## cool config
-```json
+```js
 {
     "git.enableSmartCommit": true,
     "window.menuBarVisibility": "toggle",   //toggled by Alt
