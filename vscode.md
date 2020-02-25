@@ -7,6 +7,7 @@ Alt + Up/Down           #move selection or line the cursor is on
 Ctrl + Shift + K        #remove line even with selection
 Ctrl + /                #comment line
 F2                      #factor in all files in project
+Ctrl + B                #hide left menu
 ```
 ## cool config
 ```js

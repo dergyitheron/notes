@@ -1,5 +1,4 @@
 ## commands
-
 ```shell
 du -sh folder/  #size of folder summed up and human readable
 ```
@@ -9,8 +8,10 @@ sudo !!  #run last command executed with as superuser
 ```shell
 echo "ls -l" | at midnight  #run command at specific time
 ```
+```shell
+ssh-keygen -t rsa -b 4096   #basic rsa key generation
+```
 ## hotkeys
-
 ```
 Ctrl + A  Go to the beginning of the line you are currently typing on
 Ctrl + E  Go to the end of the line you are currently typing on
@@ -29,3 +30,5 @@ Alt + F   Move cursor forward one word on the current line
 Alt + B   Move cursor backward one word on the current line
 Tab       #Auto-complete files and folder names
 ```
+## links
+> https://wiki.manjaro.org/Linux_Security (manjaro permissions, users, firewall)
