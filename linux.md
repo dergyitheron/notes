@@ -32,3 +32,4 @@ Tab       #Auto-complete files and folder names
 ```
 ## links
 > https://wiki.manjaro.org/Linux_Security (manjaro permissions, users, firewall)
+> https://wiki.archlinux.org/index.php/Security (arch advanced security)
