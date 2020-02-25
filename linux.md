@@ -1,15 +1,16 @@
 ## commands
 ```shell
 du -sh folder/  #size of folder summed up and human readable
-```
-```shell
 sudo !!  #run last command executed with as superuser
-```
-```shell
 echo "ls -l" | at midnight  #run command at specific time
-```
-```shell
 ssh-keygen -t rsa -b 4096   #basic rsa key generation
+```
+## aliases
+```shell
+alias ll='exa -alhgF'   #requires exa program, better ls
+alias yeet='rm -rf'     #yeet
+alias gitdo='f(){ git add -A && git commit -m "$@" && git push; unset -f f; }; f' #git "message" command alias
+
 ```
 ## hotkeys
 ```
