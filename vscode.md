@@ -10,6 +10,7 @@ F2                      #factor in all files in project
 ```
 ## cool config
 ```js
+//add this to setting.json
 {
     "git.enableSmartCommit": true,
     "window.menuBarVisibility": "toggle",   //toggled by Alt
