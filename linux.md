@@ -6,6 +6,11 @@ sudo !!  #run last command executed with as superuser
 echo "ls -l" | at midnight  #run command at specific time
 ssh-keygen -t rsa -b 4096   #basic rsa key generation
 ```
+```shell
+sudo groupadd $group
+sudo adduser $user
+sudo usermod -aG $group $user
+```
 
 ## aliases
 
