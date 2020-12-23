@@ -41,5 +41,17 @@ Ctrl + B                #hide left menu
         "terminalCursor.foreground": "#ffbc2c"
     },
     "workbench.tree.indent": 20,
+    "rust-analyzer.inlayHints.chainingHints": false,
+    "rust-analyzer.inlayHints.parameterHints": false,
+    "rust-analyzer.inlayHints.typeHints": false,
+    "vetur.experimental.templateInterpolationService": true,
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml"
+    },
+    "workbench.colorTheme": "Ayu Mirage Bordered",
+    "extensions.ignoreRecommendations": true,
+    "tabnine.experimentalAutoImports": true,
+    "omnisharp.useEditorFormattingSettings": false,
 }
+
 ```
